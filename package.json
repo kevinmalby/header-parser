@@ -1,0 +1,24 @@
+{
+  "name": "time_server",
+  "version": "1.0.0",
+  "description": "Time server for the Free Code Camp backend project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node --debug app.js & node-inspector"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmalby/time-server.git"
+  },
+  "author": "Kevin Malby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmalby/time-server/issues"
+  },
+  "homepage": "https://github.com/kevinmalby/time-server#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}
